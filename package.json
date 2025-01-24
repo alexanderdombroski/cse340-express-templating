@@ -1,0 +1,19 @@
+{
+  "name": "cse340-pnpm",
+  "version": "1.0.0",
+  "description": "Introduction to Routing",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js",
+    "start": "node --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ws": "^8.18.0"
+  },
+  "type": "module"
+}
